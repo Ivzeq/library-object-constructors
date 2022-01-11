@@ -1,0 +1,54 @@
+body{
+    min-width: 100vh;
+    min-height: 100vh;
+    border: red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button,
+ul,
+li,
+ol{
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------- */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+li{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.invisible *{
+    display: none;
+}
+
+#book-display{
+    display: flex;
+    gap: 32px;
+    padding: 8px;
+}
+
+.book-card{
+    border: black solid;
+    border-radius: 8px;
+    padding: 8px;
+}
