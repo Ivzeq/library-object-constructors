@@ -1,7 +1,6 @@
 body{
     min-width: 100vh;
     min-height: 100vh;
-    border: red solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,4 +50,9 @@ li{
     border: black solid;
     border-radius: 8px;
     padding: 8px;
+}
+
+.bookButtonContainer{
+    display: flex;
+    justify-content: center;
 }
