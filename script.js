@@ -77,7 +77,7 @@ newBookButton.addEventListener('click', () =>{
 })
 
 addBookButton.addEventListener('click', ()=>{
-    addBookToLibrary(new Book(formTitle.value, formAuthor.value, formPages.value, formRead.value));
+    addBookToLibrary(new Book(formTitle.value, formAuthor.value, formPages.value, formRead.checked? "read":"unread"));
     displayBooksInLibrary();
 })
 
